@@ -76,7 +76,7 @@ if age>=18:
 else:
     print("you are not eligible for voting")        
 """
-"""
+
 trip=int(input("how many distance you want to travel(kms) :"))
 if trip==1:
     print("its just 1 kms you can travel by just walking")
@@ -85,8 +85,7 @@ elif trip>=6:
 elif trip>2000:
     print("you can travel by tvs kerala train from ekm")
 else:
-    print("evdem povanda vtl irinno pndrm")        
+    print("scn illa paisa opikk vittodkaa")        
 
-"""   
     
     
