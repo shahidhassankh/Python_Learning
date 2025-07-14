@@ -99,10 +99,50 @@ for v in vowels:
         break
     print(num)"""
 
-for r in range(1,4):
+"""for r in range(1,4):
     for j in range(1,r+1):
         print(j,end=" ")
-    print("")
+    print("")"""
      
+"""count=2
+while count<=10:
+    print(count)
+    count+=1"""
+    
+"""num=int(input("enter your number :"))
+count=1
+while count<=10:
+    print(f"{num} * {count}= {num*count}")
+    count=count+1"""
 
-         
+
+while True:
+
+ num=int(input("enter the first number :"))
+ num1=int(input("enter the second number :"))
+ print("eneter your choice : \n" "1.addition\n" "2.subtraction\n" "3.multiplication\n" "4.division\n")
+ num3=int(input("enter your choice :" ))
+ if num3==1:
+  print(num+num1)
+ elif num3==2:
+    print(num-num1)
+ elif num3==3:
+    print(num*num1)
+ elif num3==4:
+    print(num/num1)     
+ stud=str(input("do you want to continu : yes or no :"))
+ if stud.lower()!="yes":
+    break
+
+    
+    
+
+
+
+
+
+
+
+
+
+
