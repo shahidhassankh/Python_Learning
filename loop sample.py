@@ -102,8 +102,8 @@ for v in vowels:
 """for r in range(1,4):
     for j in range(1,r+1):
         print(j,end=" ")
-    print("")"""
-     
+    print("")
+     """
 """count=2
 while count<=10:
     print(count)
@@ -116,8 +116,7 @@ while count<=10:
     count=count+1"""
 
 
-while True:
-
+"""while True:
  num=int(input("enter the first number :"))
  num1=int(input("enter the second number :"))
  print("eneter your choice : \n" "1.addition\n" "2.subtraction\n" "3.multiplication\n" "4.division\n")
@@ -132,15 +131,32 @@ while True:
     print(num/num1)     
  stud=str(input("do you want to continu : yes or no :"))
  if stud.lower()!="yes":
-    break
+    break"""
+"""
+for r in range(1,5):
+   print("* "*r)
+print(" ")"""
+     
+   
 
-    
-    
+"""for r in range (1,6):
+   for sp in range (5-r):
+      print("",end="")  
+   for st in range (r):
+     print("*",end="")
+   print("")
+"""
+"""for r in range(1,5):
+    for k in range(1,r+1):
+        print(r*k,end=" ")
+    print(" ")    """
 
-
-
-
-
+"""for r in range(1,5):
+    num=r
+    for k in range(r):
+         print(num,end=" ")
+         num=num+r
+    print() """    
 
 
 
