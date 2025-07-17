@@ -1,0 +1,15 @@
+"""for i in range(5,0,-1):
+ print(" "*(5-i),"* "*i)                 #q1
+ print()"""
+
+"""for j in range(1,6):
+ print(" "*(5-j),"* "*j)                 
+for i in range(5,0,-1):
+ print(" "*(5-i),"* "*i) """                 #q2
+
+for i in range(1,6):
+    for m in range(i):
+     print(chr(65+m),end =" ")        #q3
+    print()
+
+

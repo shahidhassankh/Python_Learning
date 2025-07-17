@@ -1,0 +1,32 @@
+"""def shoo():
+    print("teame scn aahna ?")
+shoo()    
+
+
+def scn(name):
+    print("hello",name)
+scn("shahid")"""
+
+
+"""def is_even(num):
+
+    if num%2==0:
+       print(num,"is even")
+    else:
+        print(num,"is odd")   
+n=int(input("enter your number :"))
+is_even(n) """
+
+"""
+def age(num):
+    if num>=18:
+        print("you are eligible for voting")
+    else:
+        print("grow up kiddo")
+n=int(input("enter your age :"))   
+age(n)     """
+
+"""
+def addition(a,b):
+    print(a+b)
+addition(67,3)    """
