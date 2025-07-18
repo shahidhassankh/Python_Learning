@@ -30,3 +30,83 @@ age(n)     """
 def addition(a,b):
     print(a+b)
 addition(67,3)    """
+
+                        # *args and **kwargs
+#*args
+
+"""def total(*n):
+    print(sum(n))      #by using *n we can do infinite numbers with out declaring a=1,b=2 etc etc
+total(55,55,10)        #appears in tuple
+
+
+def greetings(**students):
+    print(f"hello {students["name"]} you are {students["age"]} years old")
+greetings(name="shahid",age=20)    
+
+
+def smaple(a,b):
+    return a,b
+c,b=((7,3))
+print(c,b)"""
+
+
+"""c=0
+def sample ():
+    global c
+    c=c+1                #global keyword
+sample()         
+print(c)  """       
+
+
+
+"""
+def fact(num):
+   if num==1:
+      return num                            #reccurssion
+   else :
+      return num*fact(num-1)
+print (fact(5))   
+"""
+
+"""def rev(s):
+    if len(s)==0:
+        return s                    #reccurssion rev
+    else:
+        return rev(s[1:])+s[0]
+print(rev("sameer"))    
+    """
+
+
+#list comprehenssion
+
+"""even=[k for k in range(1,15) if k%2==0]
+print(even)"""
+
+
+
+#lambda
+ #lambda can be used for single line expressions 
+
+"""v=lambda a,b:a+b
+print(v(25,56))"""
+
+
+"""is_even=lambda num:True if num%2==0 else "false"
+print(is_even(3))"""
+
+"""num=lambda num:f"{num} is even" if num%2==0 else f"{num} is odd"
+print(num(2))"""
+
+#map  
+
+
+"""def squares(num):
+    return num**2
+numbers=[3,4,5,7]
+print(list(map(squares,numbers)))"""
+
+
+
+
+
+
