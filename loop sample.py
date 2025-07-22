@@ -30,14 +30,14 @@ for k,val in t.items():
      #print(val)
 """
 
-"""my_list=(4,6,8,10,15)
+my_list=(4,6,8,10,15)
 print(list (enumerate (my_list,5)))
 
 
-my_list=(4,6,8,10,15)
-print(tuple (enumerate (my_list,5)))
+"""my_list=(4,6,8,10,15)
+print(tuple (enumerate (my_list,5)))"""
 
-"""
+
 
 """my_list=(4,6,8,10,15)
 print(set (enumerate (my_list,5)))"""
@@ -158,7 +158,8 @@ print(" ")"""
          num=num+r
     print() """    
 
-
+for k,v in zip(["name:","age:","location:"],["shahid",20,"mattancherry"]):
+ print(k,v)
 
 
 
