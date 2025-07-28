@@ -17,7 +17,9 @@ except Exception as e:
     print("error",e)
 print("program executed")        
 """
-while True:
+
+
+"""while True:
    try:
     a,b=map(int,input("enter you numbers :") .split())
     try:
@@ -26,5 +28,8 @@ while True:
     except ZeroDivisionError:
      print("eneter wrong number ,try again ")
    except Exception as e:
-    print("not found")
+    print("not found")"""
      
+
+
+
