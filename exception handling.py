@@ -1,4 +1,4 @@
-"""a,b=10,0
+a,b=10,0
 try:
     c=a/b
     print(c)
@@ -16,7 +16,7 @@ except NameError:
 except Exception as e:
     print("error",e)
 print("program executed")        
-"""
+
 
 
 """while True:
